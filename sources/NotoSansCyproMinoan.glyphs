@@ -1,6 +1,6 @@
 {
 .appVersion = "1357";
-copyright = "Copyright 2022 Google Inc. All Rights Reserved.";
+copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/cypro-minoan)";
 customParameters = (
 {
 name = "Has WWS Names";
@@ -13,11 +13,11 @@ value = (
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = vendorID;
@@ -29,7 +29,7 @@ value = "Noto is a trademark of Google Inc.";
 },
 {
 name = versionString;
-value = "Version 1.502";
+value = "Version 1.503";
 },
 {
 name = "Use Typo Metrics";
@@ -4858,5 +4858,5 @@ manufacturer = "David Williams";
 manufacturerURL = "http://www.google.com/get/noto/";
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 502;
+versionMinor = 503;
 }
