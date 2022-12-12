@@ -212,9 +212,19 @@ unicode = 00A0;
 },
 {
 glyphname = uni25CC;
-lastChange = "2022-12-12 14:21:47 +0000";
+lastChange = "2022-12-12 14:45:07 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{300, 0}";
+},
+{
+name = top;
+position = "{300, 600}";
+}
+);
 layerId = UUID0;
 paths = (
 {
