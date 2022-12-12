@@ -2,18 +2,34 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[12] NotoSansCyproMinoan-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+<details><summary><b>[10] NotoSansCyproMinoan-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 241, but got 30 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
+	- acutecomb
 
-* 🔥 **FAIL** No dotted circle glyph presentand font uses a complex shaper [code: missing-dotted-circle-complex]
-</div></details><details><summary>🔥 <b>FAIL:</b> Does the font have any invalid script tags? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/layout.html#com.google.fonts/check/layout_valid_script_tags">com.google.fonts/check/layout_valid_script_tags</a>)</summary><div>
+	- gravecomb
 
+	- tildecomb
 
-* 🔥 **FAIL** The following invalid script tags were found in the font: cpmn [code: bad-script-tags]
+	- uni0302
+
+	- uni0304
+
+	- uni0306
+
+	- uni0307
+
+	- uni0308
+
+	- uni030A
+
+	- uni030B 
+
+	- And 5 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -136,8 +152,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 3 | 9 | 113 | 7 | 95 | 0 |
-| 0% | 1% | 4% | 50% | 3% | 42% | 0% |
+| 0 | 1 | 9 | 113 | 7 | 97 | 0 |
+| 0% | 0% | 4% | 50% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
